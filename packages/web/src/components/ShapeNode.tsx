@@ -32,12 +32,12 @@ export function ShapeNode({ node }: Props) {
         <Circle
           radius={node.radius}
           fill={node.fill}
-          stroke="#0f172a"
-          strokeWidth={2}
-          shadowColor="black"
-          shadowBlur={6}
-          shadowOpacity={0.25}
-          shadowOffsetY={2}
+          stroke="#2b3327"
+          strokeWidth={1.5}
+          shadowColor="#2b3327"
+          shadowBlur={10}
+          shadowOpacity={0.18}
+          shadowOffsetY={3}
         />
         <Text
           text={node.label}
@@ -71,13 +71,13 @@ export function ShapeNode({ node }: Props) {
         width={node.width}
         height={node.height}
         fill={node.fill}
-        stroke="#0f172a"
-        strokeWidth={2}
-        cornerRadius={6}
-        shadowColor="black"
-        shadowBlur={6}
-        shadowOpacity={0.25}
-        shadowOffsetY={2}
+        stroke="#2b3327"
+        strokeWidth={1.5}
+        cornerRadius={10}
+        shadowColor="#2b3327"
+        shadowBlur={10}
+        shadowOpacity={0.18}
+        shadowOffsetY={3}
       />
       <Text
         text={node.label}
